@@ -44,15 +44,19 @@ nav li
 /*-------------------Barre de recherche------------------*/
 
 
-.post
+form
 {
 	display: flex;
-	height: 30px;
 }
 .position
 {
 	background-color: #F2F2F2;
-	height: 30px;
+	padding: 5px 10px 5px 10px;
+	border-radius: 5px 0px 0px 5px;
+}
+#recherche
+{
+		border: 1px solid #F2F2F2;
 }
 .submit
 {
@@ -62,8 +66,13 @@ nav li
 }
 input
 {
-	border: none;
+   border: none;
 }
+
+
+/*-------------------------Filtres---------------------*/
+
+
 #filtres
 {
 	display: flex;
@@ -75,7 +84,7 @@ input
 }
 #filtres h2
 {
-	margin-right: 30px;
+	margin-right: 20px;
 }
 .items
 
@@ -83,11 +92,12 @@ input
 	display: flex;
 	flex-direction: row;
 	align-items: baseline;
-	margin-left: 50px;
-	margin-right: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
 	border: 1px solid #F2F2F2;
-	border-radius: 5px;
-	padding: 20px;
+	border-radius: 25px;
+	padding: 0px 15px 3px 0px;
+
 }
 .items i
 {
@@ -96,5 +106,9 @@ input
 	align-items: center;
 	margin-right: 20px;
 	border: 1px solid black;
-	border-radius: 100%; 
+	border-radius: 100%;
+	border: none; 
+	color: #0065FC;
+	background-color: #DEEBFF;
+	padding: 10px 10px 10px 10px;
 }
