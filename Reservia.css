@@ -1,8 +1,9 @@
 #bloc_page
 {
-	width: 1200px;
+	width: 1500px;
 	margin: auto;
 }
+
 body
 {
 	font-family: Raleway, sans-serif;
@@ -18,26 +19,45 @@ header
 	flex-direction: row;
 	justify-content: space-between;
 	margin-top: 20px;
+	
 }
+
 nav ul
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
+
 nav li
 {
 	list-style-type: none;
 	margin-left: 35px;
 }
+
+#menu
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
 .hebergements
 {
 	color: #0065FC;
 }
-.inscription
+
+#inscription
 {
 	color: #0065FC;
 	font-weight: bold;
+	padding-left: 35px;
+}
+
+#menu a
+{
+	text-decoration: none;
 }
 
 
@@ -48,22 +68,26 @@ form
 {
 	display: flex;
 }
+
 .position
 {
 	background-color: #F2F2F2;
 	padding: 5px 10px 5px 10px;
 	border-radius: 5px 0px 0px 5px;
 }
+
 #recherche
 {
 		border: 1px solid #F2F2F2;
 }
+
 .submit
 {
 	border-radius: 0px 5px 5px 0px;
 	background-color: #0065FC;
 	color: white;
 }
+
 input
 {
    border: none;
@@ -77,28 +101,30 @@ input
 {
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
 	align-items: center;
 	font-size: 0.6em;
-	margin-top: 20px;
+	margin-top: 30px; 
+	margin-bottom: 20px;
 }
+
 #filtres h2
 {
 	margin-right: 20px;
 }
-.items
 
+.items
 {
 	display: flex;
 	flex-direction: row;
 	align-items: baseline;
-	margin-left: 15px;
+	margin-left: 5px;
 	margin-right: 15px;
-	border: 1px solid #F2F2F2;
+	border: 2px solid #d0d0d0;
 	border-radius: 25px;
-	padding: 0px 15px 3px 0px;
+	padding: 0px 15px 0px 0px;
 
 }
+
 .items i
 {
 	display: flex;
@@ -106,9 +132,36 @@ input
 	align-items: center;
 	margin-right: 20px;
 	border: 1px solid black;
-	border-radius: 100%;
+	border-radius: 35px;
 	border: none; 
 	color: #0065FC;
 	background-color: #DEEBFF;
 	padding: 10px 10px 10px 10px;
+	font-size: large;
+}
+
+.items h3
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: auto;
+}
+
+.infos
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: baseline;
+	margin-bottom: 20px;
+}
+
+.infos i
+{
+	color: #0065FC;
+	margin-right: 20px;
+	border: 2px solid #F2F2F2; 
+	border-radius: 35px;
+	padding: 5px 9px 5px 9px;
+	font-size: small;
 }
