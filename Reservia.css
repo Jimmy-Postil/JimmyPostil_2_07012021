@@ -1,6 +1,6 @@
 #bloc_page
 {
-	width: 1600px;
+	width: 1200px;
 	margin: auto;
 }
 body
@@ -47,15 +47,54 @@ nav li
 .post
 {
 	display: flex;
-	height: 20px;
+	height: 30px;
 }
 .position
 {
 	background-color: #F2F2F2;
+	height: 30px;
 }
 .submit
 {
 	border-radius: 0px 5px 5px 0px;
 	background-color: #0065FC;
 	color: white;
+}
+input
+{
+	border: none;
+}
+#filtres
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 0.6em;
+	margin-top: 20px;
+}
+#filtres h2
+{
+	margin-right: 30px;
+}
+.items
+
+{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	margin-left: 50px;
+	margin-right: 30px;
+	border: 1px solid #F2F2F2;
+	border-radius: 5px;
+	padding: 20px;
+}
+.items i
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 20px;
+	border: 1px solid black;
+	border-radius: 100%; 
 }
