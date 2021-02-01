@@ -1,0 +1,28 @@
+#bloc_page
+{
+	width: 1600px;
+	margin: auto;
+}
+body
+{
+	font-family: Raleway, sans-serif;
+}
+
+header
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+nav ul
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+nav li
+{
+	list-style-type: none;
+	margin-left: 35px;
+}
