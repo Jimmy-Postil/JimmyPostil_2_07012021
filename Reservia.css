@@ -8,6 +8,10 @@ body
 	font-family: Raleway, sans-serif;
 }
 
+
+/*-----------------header--------------*/
+
+
 header
 {
 	display: flex;
@@ -25,4 +29,33 @@ nav li
 {
 	list-style-type: none;
 	margin-left: 35px;
+}
+.hebergements
+{
+	color: #0065FC;
+}
+.inscription
+{
+	color: #0065FC;
+	font-weight: bold;
+}
+
+
+/*-------------------Barre de recherche------------------*/
+
+
+.post
+{
+	display: flex;
+	height: 20px;
+}
+.position
+{
+	background-color: #F2F2F2;
+}
+.submit
+{
+	border-radius: 0px 5px 5px 0px;
+	background-color: #0065FC;
+	color: white;
 }
