@@ -147,6 +147,13 @@ input
 	margin: auto;
 }
 
+.items:hover
+ {
+
+  background-color: #deebff;
+  color: #0065fc;
+}
+
 .infos
 {
 	display: flex;
@@ -164,4 +171,39 @@ input
 	border-radius: 35px;
 	padding: 5px 9px 5px 9px;
 	font-size: small;
+}
+
+
+/*--------------------------------Hébergements---------------------------*/
+
+
+.contenair_hebergements_pop
+{
+	display: flex;	
+}
+
+#contenair_hebergements
+{
+	background-color: #F2F2F2;
+	border-radius: 20px;
+	padding: 30px;	
+}
+
+#hebergements
+{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.case_hebergements
+{
+	
+
+}
+
+.case_hebergements img 
+{
+   height: 200px;
+   width: 250px;
 }
