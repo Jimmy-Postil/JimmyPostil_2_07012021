@@ -198,8 +198,11 @@ input
 
 .case_hebergements
 {
-	
-
+	margin-right: 25px;
+	margin-bottom: 25px;
+	border: 5px solid white;
+	border-radius: 20px;
+	background-color: white;
 }
 
 .case_hebergements img 
