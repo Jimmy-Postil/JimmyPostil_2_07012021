@@ -189,9 +189,20 @@ input
 	padding: 30px;	
 }
 
+#contenair_hebergements h1
+{
+	padding-left: 25px;
+}
+
+#plus
+{
+	padding-left: 25px;
+}
+
 #hebergements
 {
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
 
 }
@@ -207,6 +218,26 @@ input
 
 .case_hebergements img 
 {
-   height: 200px;
+   height: 120px;
    width: 250px;
+   margin-top: -12px;
+   border-radius: 10px 10px 0px 0px; 
+}
+
+.case_hebergements h3
+{
+	font-size: 1.1em;
+	margin-top: -10px;
+	padding-left: 15px;
+
+}
+
+.padding
+{
+   	padding-left: 15px;
+}
+
+.case_hebergements i
+{
+  
 }
