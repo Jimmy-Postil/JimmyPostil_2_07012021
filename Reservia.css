@@ -1,6 +1,6 @@
 #bloc_page
 {
-	width: 1500px;
+	width: 100%;
 	margin: auto;
 }
 
@@ -25,6 +25,11 @@ header
 	justify-content: space-between;
 	margin-top: 10px;
 	
+}
+
+.pad
+{
+	padding-left: 20px;
 }
 
 nav ul
@@ -73,24 +78,28 @@ nav li
 form
 {
 	display: flex;
+	padding-left: 20px;
 }
 
 .position
 {
 	background-color: #F2F2F2;
-	padding: 5px 10px 5px 10px;
-	border-radius: 5px 0px 0px 5px;
+	padding: 15px;
+	border-radius: 10px 0px 0px 10px;
 }
 
 #recherche
 {
 		border: 1px solid #F2F2F2;
+		font-size: 1em;
 }
 
 .submit
 {
-	border-radius: 0px 5px 5px 0px;
+	border-radius: 0px 15px 15px 0px;
 	background-color: #0065FC;
+	padding: 15px 20px 15px 20px;
+	font-size: 1em;
 	color: white;
 }
 
@@ -108,9 +117,11 @@ input
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	font-size: 0.6em;
+	font-size: 0.8em;
 	margin-top: 30px; 
 	margin-bottom: 20px;
+	padding-left: 20px;
+	cursor: pointer;
 }
 
 #filtres h2
@@ -166,7 +177,7 @@ input
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: baseline;
-	margin-bottom: 20px;
+	padding-left: 20px;
 }
 
 .infos i
@@ -185,24 +196,26 @@ input
 
 .contenair_hebergements_pop
 {
-	display: flex;	
+	display: flex;
+		
 }
 
 #contenair_hebergements
 {
 	background-color: #F2F2F2;
 	border-radius: 20px;
-	padding: 30px;	
+	margin-left: 20px;
 }
 
 #contenair_hebergements h1
 {
-	padding-left: 25px;
+	padding-top: 35px;
+	padding-left: 65px;
 }
 
 #plus
 {
-	padding-left: 30px;
+	padding-left: 65px;
 }
 
 #hebergements
@@ -210,12 +223,13 @@ input
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-
+	padding-left: 28px;
 }
 
 .case_hebergements
 {
-	margin-right: 25px;
+	width: 250px;
+	margin-right: 30px;
 	margin-bottom: 25px;
 	border: 5px solid white;
 	border-radius: 20px;
@@ -270,8 +284,8 @@ input
 {
 	background-color: #F2F2F2;
 	border-radius: 20px;
-	margin-left: 50px;
-	margin-right: 35px;
+	margin-left: 30px;
+	margin-right: 20px;
 	padding: 35px; 
 }
 
@@ -282,23 +296,16 @@ input
 	align-items: baseline;
 }
 
-.plus_pop h1
-{
-   padding-left: 35px;
-}
-
 .plus_pop i
 {
 	font-size: 1.4em;
-	padding-right: 20px;
+	padding-right: 5px;
 }
 
 #pop
 {
 	display: flex;
-	flex-direction: column;
-	margin-left: 40px;
-	
+	flex-direction: column;	
 }
 
 .case_hebergements_pop img
@@ -306,14 +313,16 @@ input
 	height: 130px;
 	width: 150px;
 	border-radius: 10px 0px 0px 10px;
+    margin-top: -16px;
+    margin-bottom: -21px;
 }
 
 .case_hebergements_pop
 {
 	display: flex;	
-	width: 350px;
+	width: 380px;
 	margin-bottom: 25px;
-	margin-right: 25px;
+	margin-right: 5px;
 	border: 5px solid white;
 	border-radius: 20px;
 	background-color: white;
@@ -323,17 +332,29 @@ input
 {
 	display: flex;
 	flex-direction: column;
-	padding-left: 20px;
+	padding-left: 10px;
+	padding-right: 30px;
 }
 
 .description i
 {
 	display: flex;
 	flex-direction: row;
+	font-size: small;
+	padding-top: 5px;
 }
 
 .description h3
 {
 	padding-left: 15px;
+	margin-top: 5px;
+}
+
+.note
+{
+   display: flex;
+   padding-left: 15px;
+   color: #0065FC;
+   padding-top: 15px;
 }
 
