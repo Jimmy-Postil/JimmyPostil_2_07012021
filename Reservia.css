@@ -9,6 +9,11 @@ body
 	font-family: Raleway, sans-serif;
 }
 
+h1
+{
+	font-size: 1.4em;
+}
+
 
 /*-----------------header--------------*/
 
@@ -41,7 +46,7 @@ nav li
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: baseline;
-	margin-right: 20px;
+	margin-right: 50px;
 }
 
 .hebergements
@@ -215,13 +220,14 @@ input
 	border: 5px solid white;
 	border-radius: 20px;
 	background-color: white;
+	cursor: pointer;
 }
 
 .case_hebergements img 
 {
    height: 120px;
    width: 250px;
-   margin-top: -12px;
+   margin-top: -16px;
    border-radius: 10px 10px 0px 0px; 
 }
 
@@ -258,7 +264,7 @@ input
 }
 
 
-/*----------------------------Hebergements Populaires-----------------------*/
+/*----------------------------Hébergements Populaires-----------------------*/
 
 .contenair_pop
 {
@@ -266,15 +272,25 @@ input
 	border-radius: 20px;
 	margin-left: 50px;
 	margin-right: 35px;
-	padding: 30px; 
+	padding: 35px; 
 }
 
 .plus_pop
 {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: baseline;
+}
 
+.plus_pop h1
+{
+   padding-left: 35px;
+}
+
+.plus_pop i
+{
+	font-size: 1.4em;
+	padding-right: 20px;
 }
 
 #pop
@@ -282,32 +298,42 @@ input
 	display: flex;
 	flex-direction: column;
 	margin-left: 40px;
-
+	
 }
 
 .case_hebergements_pop img
 {
 	height: 130px;
 	width: 150px;
+	border-radius: 10px 0px 0px 10px;
 }
 
 .case_hebergements_pop
 {
-	display: flex;
+	display: flex;	
 	width: 350px;
+	margin-bottom: 25px;
+	margin-right: 25px;
+	border: 5px solid white;
+	border-radius: 20px;
+	background-color: white;
 }
 
 .description
 {
 	display: flex;
 	flex-direction: column;
+	padding-left: 20px;
 }
 
-.case_hebergements_pop i
+.description i
 {
 	display: flex;
 	flex-direction: row;
-	align-items: baseline;
 }
 
+.description h3
+{
+	padding-left: 15px;
+}
 
