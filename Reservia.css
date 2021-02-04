@@ -244,6 +244,12 @@ input
 	border-radius: 20px;
 	background-color: white;
 	cursor: pointer;
+	transform: scale(1);
+}
+
+.case_hebergements:hover
+{
+	transform: scale(1.1);
 }
 
 .case_hebergements img 
@@ -338,6 +344,12 @@ input
 	border: 5px solid white;
 	border-radius: 20px;
 	background-color: white;
+	transform: scale(1);
+}
+
+.case_hebergements_pop:hover
+{
+	transform: scale(1.1);
 }
 
 .description
@@ -373,36 +385,158 @@ input
 
 /*-------------------------------------------Activités-------------------------------------------*/
 
+
+.activites
+{
+	margin-top: 40px;
+}
+
+.activites h1
+{
+	padding-left: 25px;
+	padding-top: 25px;
+	padding-bottom: 12px;
+}
+
 .contenair_activites
 {
 	display: flex;
+	justify-content: space-around;
+	cursor: pointer;
 }
-.port_calanques img
+
+.contenair_activites img
 {
-	height: 450px;
-	width: 300px;
+	border-radius: 20px 20px 0px 0px;
+	margin-top: -16px;
+}
+
+.contenair_activites h3
+{
+	padding-left: 40px;
+	margin-top: -10px;
+}
+
+.port
+{
+	box-shadow: 0px 0px 5px black;
+	border-radius: 20px;
+	transform: scale(1);
+}
+
+.port img
+{
+	height: 480px;
+	width: 330px;
 	object-fit: cover;
 }
 
+.port:hover
+{
+	transform: scale(1.1);
+}
+
+.fort_pomegues
+{
+	box-shadow: 0px 0px 5px black;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	transform: scale(1);
+}
 
 .fort_pomegues img 
 {
-	height: 180px;
-	width: 300px;
+	height: 230px;
+	width: 330px;
 	object-fit: cover;
+}
 
+.fort_pomegues:hover
+{
+	transform: scale(1.1);
+}
+
+.frioul
+{
+	box-shadow: 0px 0px 5px black;
+	border-radius: 20px;
+	transform: scale(1);
 }
 
 .frioul img
 {
-	height: 150px;
-	width: 300px;
+	height: 180px;
+	width: 330px;
 	object-fit: cover;
+}
+
+.frioul:hover
+{
+	transform: scale(1.1);
+}
+
+.calanques
+{
+	box-shadow: 0px 0px 5px black;
+	border-radius: 20px;
+	transform: scale(1);
+}
+
+.calanques img
+{
+	height: 480px;
+	width: 330px;
+	object-fit: cover;
+}
+
+.calanques:hover
+{
+	transform: scale(1.1);
+}
+
+.garde
+{
+	justify-content: space-between;
+	box-shadow: 0px 0px 5px black;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	transform: scale(1);
 }
 
 .garde img
 {
-	height: 170px;
-	width: 300px;
+	height: 200px;
+	width: 330px;
 	object-fit: cover;
+}
+
+.garde:hover
+{
+	transform: scale(1.1);
+}
+
+.longchamp
+{
+	box-shadow: 0px 0px 5px black;
+	border-radius: 20px;
+	transform: scale(1);
+}
+
+.longchamp img
+{
+	height: 200px;
+	width: 330px;
+	object-fit: cover;
+}
+
+.longchamp:hover
+{
+	transform: scale(1.1);
+}
+
+.vertical
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
