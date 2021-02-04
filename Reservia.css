@@ -9,12 +9,17 @@
 
 body
 {
-	font-family: Raleway, sans-serif;
+	font-family: 'raleway', sans-serif;
 }
 
 h1
 {
 	font-size: 1.4em;
+}
+
+h3
+{
+	font-size: 1.1em;
 }
 
 a
@@ -39,7 +44,9 @@ header
 .pad
 {
 	padding-left: 20px;
+	font-family: sans-serif;
 }
+
 
 nav ul
 {
@@ -52,6 +59,12 @@ nav li
 {
 	list-style-type: none;
 	margin-left: 35px;
+	font-family: sans-serif;
+}
+
+nav a:hover
+{
+	border-top: 2px solid #0065FC;
 }
 
 #menu
@@ -94,13 +107,20 @@ form
 {
 	background-color: #F2F2F2;
 	padding: 15px;
-	border-radius: 10px 0px 0px 10px;
+	border-radius: 15px 0px 0px 15px;
 }
 
 #recherche
 {
 		border: 1px solid #F2F2F2;
 		font-size: 1em;
+		padding-left: 15px;
+}
+
+#recherche::placeholder
+{
+	color: black;
+	font-family: "raleway", sans-serif;
 }
 
 .submit
@@ -110,6 +130,7 @@ form
 	padding: 15px 20px 15px 20px;
 	font-size: 1em;
 	color: white;
+	cursor: pointer;
 }
 
 input
@@ -157,6 +178,7 @@ input
 	justify-content: center;
 	align-items: center;
 	margin-right: 20px;
+	margin-left: -3px;
 	border: 1px solid black;
 	border-radius: 35px;
 	border: none; 
@@ -187,6 +209,7 @@ input
 	justify-content: flex-start;
 	align-items: baseline;
 	padding-left: 20px;
+	font-family: sans-serif;
 }
 
 .infos i
@@ -271,7 +294,8 @@ input
 .padding
 {
    	padding-left: 15px;
-   	margin-top: -12px; 
+   	margin-top: -12px;
+   	font-family: sans-serif; 
 }
 
 .case_hebergements i
@@ -499,7 +523,7 @@ input
 	justify-content: space-between;
 	box-shadow: 0px 0px 5px black;
 	border-radius: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	transform: scale(1);
 }
 
@@ -539,4 +563,43 @@ input
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+
+
+/*--------------------------------footer--------------------------------*/
+
+
+#footer
+{
+	display: flex;
+	background-color: #F2F2F2;
+	margin-top: 50px;
+	padding-top: 30px;
+}
+
+#footer h3
+{
+	padding-left: 39px;
+}
+
+li
+{
+	list-style-type: none;
+	padding-bottom: 10px;
+	font-family: sans-serif;
+}
+
+.propos
+{
+	padding-left: 30px;
+}
+
+.nos
+{
+	padding-left: 180px;
+}
+
+.assistance
+{
+	padding-left: 220px;
 }

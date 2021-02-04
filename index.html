@@ -4,8 +4,8 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-		<link rel = "preconnect" href = "https://fonts.gstatic.com">
-        <link href = "https://fonts.googleapis.com/css2? family = Raleway: wght @ 700 & display = swap" rel = "feuille de style">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+    	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="Reservia.css">
 		<title>Reservia</title>
 	</head>
@@ -21,8 +21,8 @@
 			<div id="menu">
 				<nav>
 					<ul>
-						<li><span class="hebergements">Hébergements</span></li>
-						<li>Activités</li>
+						<li><a href="#hébergements"><span class="hebergements">Hébergements</span></a></li>
+						<li><a href="#activités">Activités</a></li>
 					</ul>
 				</nav>
 
@@ -41,7 +41,7 @@
 			        <label class="position">
 			            <i class="fas fa-map-marker-alt"></i>
 		            </label>
-			               <input type="search" name="recherche" id="recherche" placeholder="Ville, logements etc... ">
+			               <input type="search" name="recherche" id="recherche" placeholder="Marseille, France ">
 			               <input type="button" value="Rechercher" class="submit">
 			    </form>	
 		</section>
@@ -90,7 +90,7 @@
  				
  		<div id="contenair_hebergements">
           
-			   <h1>Hébergements à Marseille</h1>
+			   <h1 id="hébergements">Hébergements à Marseille</h1>
 
 			<div id="hebergements">	
             
@@ -257,7 +257,7 @@
 
   <section class="activites">
     	
-    	<h1>Activités à Marseille</h1>
+    	<h1 id="activités">Activités à Marseille</h1>
 
     <div class="contenair_activites">
 
@@ -268,36 +268,80 @@
 
      <div class="vertical">
       <div class="fort_pomegues">
+       <a href="lien">
         <p><img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues"/></p>
         <h3>Fort de Pomègues</h3>
       </div>
+  	 </a>
 
       <div class="frioul">
+       <a href="lien">
         <p><img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul"/></p>
         <h3>Îles du Frioul</h3>
+       </a>
       </div>
      </div>
 
       <div class="calanques">
+       <a href="lien">
         <p><img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques"/></p>
         <h3>Parc National des Calanques</h3>
+       </a>
       </div>
 
      <div class="vertical">
       <div class="garde">
+       <a href="lien">
         <p><img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-La-garde"/></p>
         <h3>Notre-Dame-de-La-Garde</h3>
+       </a>
       </div>
 
-      <div class="longchamp"> 
+      <div class="longchamp">
+       <a href="lien"> 
         <p><img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp"></p>
         <h3>Parc Longchamps</h3>
       </div>
+      </a>
      </div>
-    </div>
+    </div> 
+   </section> 
+
+   <footer>
+
+   	<div id="footer">
+   	
+   	  <div class="propos">
+   		<h3>A propos</h3>
+
+   			<ul>
+   				<li>Fonctionnement du site</li>
+   				<li>Conditions générales de vente</li>
+   				<li>Données et confidentialité</li>
+   			</ul>
+   	  </div>
 
 
-    </section>  
+   	  <div class="nos">
+   		<h3>Nos hébergements</h3>
+
+   			<ul>
+   				<li>Charte qualité</li>
+   				<li>Soumettre votre hôtel</li>
+   			</ul>
+   	  </div>
+
+      <div class="assistance">
+   		<h3>Assistance</h3>
+
+   			<ul>
+   				<li>Centre d'aide</li>
+   				<li>Nous contacter</li>
+   			</ul>
+   	  </div>
+   	</div>
+
+   </footer> 
 
 
    </body>
