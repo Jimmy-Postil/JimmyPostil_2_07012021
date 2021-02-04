@@ -1,3 +1,6 @@
+
+
+/*-------------------------------Styles principaux de la page--------------------*/
 #bloc_page
 {
 	width: 100%;
@@ -14,8 +17,14 @@ h1
 	font-size: 1.4em;
 }
 
+a
+{
+	text-decoration: none;
+	color: black;
+}
 
-/*-----------------header--------------*/
+
+/*------------------------------------header-------------------------------*/
 
 
 header
@@ -72,7 +81,7 @@ nav li
 }
 
 
-/*-------------------Barre de recherche------------------*/
+/*-------------------------------------Barre de recherche------------------------------------*/
 
 
 form
@@ -109,7 +118,7 @@ input
 }
 
 
-/*-------------------------Filtres---------------------*/
+/*-------------------------------------------Filtres-----------------------------------------*/
 
 
 #filtres
@@ -191,7 +200,7 @@ input
 }
 
 
-/*--------------------------------Hébergements---------------------------*/
+/*-----------------------------------------------Hébergements--------------------------------------*/
 
 
 .contenair_hebergements_pop
@@ -241,6 +250,7 @@ input
 {
    height: 120px;
    width: 250px;
+   object-fit: cover;
    margin-top: -16px;
    border-radius: 10px 10px 0px 0px; 
 }
@@ -278,7 +288,8 @@ input
 }
 
 
-/*----------------------------Hébergements Populaires-----------------------*/
+/*--------------------------------------------Hébergements Populaires----------------------------------------*/
+
 
 .contenair_pop
 {
@@ -312,6 +323,7 @@ input
 {
 	height: 130px;
 	width: 150px;
+	object-fit: cover;
 	border-radius: 10px 0px 0px 10px;
     margin-top: -16px;
     margin-bottom: -21px;
@@ -358,3 +370,39 @@ input
    padding-top: 15px;
 }
 
+
+/*-------------------------------------------Activités-------------------------------------------*/
+
+.contenair_activites
+{
+	display: flex;
+}
+.port_calanques img
+{
+	height: 450px;
+	width: 300px;
+	object-fit: cover;
+}
+
+
+.fort_pomegues img 
+{
+	height: 180px;
+	width: 300px;
+	object-fit: cover;
+
+}
+
+.frioul img
+{
+	height: 150px;
+	width: 300px;
+	object-fit: cover;
+}
+
+.garde img
+{
+	height: 170px;
+	width: 300px;
+	object-fit: cover;
+}
