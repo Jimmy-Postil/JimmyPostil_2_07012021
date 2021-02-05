@@ -608,3 +608,77 @@ li
 {
 	padding-left: 220px;
 }
+
+/*--------------------------Responsive ordinateur----------------------*/
+
+@media all and (min-width: 992px) and (max-width: 1199px)
+{
+
+#bloc_page
+{
+	width: 990px;
+}
+
+#menu
+{
+	margin-right: -110px;
+}
+
+{
+	margin-right: 30px;
+}
+
+#contenair_hebergements
+{
+	width: 700px;
+}
+
+.case_hebergements
+{
+	width: 250px;
+}
+
+.case_hebergements h3
+{
+	font-size: 1.2em;
+}
+
+.case_hebergements img
+{
+	height: 150px;
+	width: 250px;
+}
+
+.contenair_pop
+{
+	margin-right: -150px;
+}
+
+#hébergements
+{
+	margin-left: -25px;
+}
+
+#plus
+{
+	margin-left: -25px;
+}
+
+.case_hebergements_pop
+{
+	margin-bottom: 80px;
+	height: 180px;
+}
+
+.case_hebergements_pop img
+{
+	height: 180px;
+}
+
+.case_hebergements_pop h3
+{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 1.2em;
+}
+
