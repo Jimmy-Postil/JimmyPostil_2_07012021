@@ -1,7 +1,7 @@
 
 
 /*-------------------------------Styles principaux de la page--------------------*/
-#bloc_page
+.page-content
 {
 	width: 100%;
 	margin: auto;
@@ -183,7 +183,6 @@ input
 	justify-content: center;
 	align-items: center;
 	margin-right: 20px;
-	margin-left: -3px;
 	border: 1px solid black;
 	border-radius: 35px;
 	border: none; 
@@ -614,23 +613,24 @@ li
 @media all and (min-width: 992px) and (max-width: 1199px)
 {
 
-#bloc_page
+.page-content
 {
-	width: 990px;
+	width: 100%;
 }
 
 #menu
 {
-	margin-right: -110px;
-}
-
-{
-	margin-right: 30px;
+	width: auto;
 }
 
 #contenair_hebergements
 {
 	width: 700px;
+}
+
+.contenair_hebergements_pop
+{
+	width: 100%;
 }
 
 .case_hebergements
@@ -647,11 +647,6 @@ li
 {
 	height: 150px;
 	width: 250px;
-}
-
-.contenair_pop
-{
-	margin-right: -150px;
 }
 
 #hébergements
@@ -682,3 +677,70 @@ li
 	font-size: 1.2em;
 }
 
+.contenair_activites
+{
+	width: auto;
+}
+
+.port
+{
+	margin-right: 20px;
+}
+
+.port img
+{
+	height: 480px;
+	width: 250px;	
+}
+
+.fort_pomegues
+{
+	width: 280px;
+	margin-right: 20px;
+}
+
+.fort_pomegues img
+{
+	height: 200px;
+	width: 280px;
+}
+
+.frioul
+{
+	margin-right: 20px;
+}
+
+.frioul img 
+{
+	height: 200px;
+	width: 280px;
+}
+
+.calanques
+{
+	margin-right: 20px;
+	width: 250px;
+}
+
+.calanques img 
+{
+	height: 480px;
+	width: 250px;
+}
+
+.garde 
+{
+	width: 280px;
+}
+
+.garde img 
+{
+	height: 200px;
+	width: 280px;
+}
+
+.longchamp img 
+{
+	height: 200px;
+	width: 280px;
+}
