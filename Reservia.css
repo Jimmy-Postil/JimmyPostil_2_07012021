@@ -31,22 +31,19 @@ a
 
 /*------------------------------------header-------------------------------*/
 
-
 header
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-top: 10px;
-	
+	margin-top: 10px;	
 }
 
-.pad
+.logo
 {
 	padding-left: 20px;
 	font-family: sans-serif;
 }
-
 
 nav ul
 {
@@ -82,7 +79,7 @@ nav a:hover
 }
 
 #inscription
-{
+{	
 	color: #0065FC;
 	font-weight: bold;
 	padding-left: 35px;
@@ -96,6 +93,17 @@ nav a:hover
 #menu a
 {
 	text-decoration: none;
+}
+
+
+.pad
+{
+	padding-left: 20px;
+}
+
+.pad:nth-child(2)
+{
+	font-family: sans-serif;
 }
 
 
@@ -622,6 +630,7 @@ li
 
 @media all and (min-width: 481px) and (max-width: 768px)
 {
+
 
 #filtres
 {
