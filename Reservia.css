@@ -593,7 +593,6 @@ input
 {
 	display: flex;
 	background-color: #F2F2F2;
-	width: 100%;
 	margin-top: 50px;
 	padding-top: 30px;
 }
@@ -613,16 +612,144 @@ li
 .propos
 {
 	padding-left: 30px;
+	width: 100%;
 }
 
 .nos
 {
 	padding-left: 180px;
+	width: 100%;
 }
 
 .assistance
 {
 	padding-left: 220px;
+	width: 100%;
+}
+
+
+/*-------------------------Responsive mobile---------------------------*/
+
+@media all and (max-width: 480px)
+{
+
+.page-content
+{
+	width: auto;
+	margin: auto;
+}
+
+#filtres
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contenair_hebergements_pop
+{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+}
+
+#contenair_hebergements
+{
+	background-color: white;
+	margin-left: 0px;
+}
+
+.case_hebergements
+{
+	width: 100%;
+	border-radius: 20px;
+	box-shadow: 0px 0px 5px grey;
+}
+
+.case_hebergements img
+{
+	width: 100%;
+}
+
+.case_hebergements_pop
+{
+	width: 100%;
+}
+
+.case_hebergements_pop h3, p, i
+{
+	font-size: 0.8em;
+}
+
+#activités
+{
+	padding-left: 35px;
+}
+
+.contenair_activites
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 92%;
+}
+
+.vertical
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-top: 40px;
+}
+
+.port
+{
+	width: 100%;
+	margin-left: 35px;	
+}
+
+.port img
+{
+	width: 100%;
+	height: 150px;
+}
+
+.fort_pomegues
+{
+	margin-bottom: 40px;
+}
+
+.fort_pomegues img
+{
+	height: 150px;
+}
+
+.frioul img
+{
+	height: 150px;
+}
+
+.calanques
+{
+	width: 100%;
+	margin-top: 40px;
+}
+
+.calanques img
+{
+	height: 150px;
+}
+
+.garde img
+{
+	height: 150px;
+}
+
+.longchamp img
+{
+	height: 150px;
+}
+
 }
 
 
@@ -800,12 +927,13 @@ li
 .case_hebergements_pop
 {
 	margin-bottom: 80px;
-	height: 180px;
+	height: 240px;
+	width: 100%;
 }
 
 .case_hebergements_pop img
 {
-	height: 180px;
+	height: 240px;
 }
 
 .case_hebergements_pop h3
