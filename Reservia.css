@@ -593,6 +593,7 @@ input
 {
 	display: flex;
 	background-color: #F2F2F2;
+	width: 100%;
 	margin-top: 50px;
 	padding-top: 30px;
 }
@@ -666,6 +667,75 @@ li
 	width: 100%;
 }
 
+#activités
+{
+	padding-left: 35px;
+}
+
+.contenair_activites
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 90%;
+}
+
+.vertical
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-top: 40px;
+}
+
+.port
+{
+	width: 100%;
+	margin-left: 35px;
+	
+}
+
+.port img
+{
+	width: 100%;
+	height: 200px;
+}
+
+.fort_pomegues
+{
+	margin-bottom: 40px;
+}
+
+.fort_pomegues img
+{
+	height: 200px;
+}
+
+.frioul img
+{
+	height: 200px;
+}
+
+.calanques
+{
+	width: 100%;
+	margin-top: 40px;
+}
+
+.calanques img
+{
+	height: 200px;
+}
+
+.garde img
+{
+	height: 200px;
+}
+
+.longchamp img
+{
+	height: 200px;
+}
 }
 
 /*--------------------------Responsive ordinateurs moyens et grandes tablettes----------------------*/
@@ -675,6 +745,11 @@ li
 
 {
 
+#filtres
+{
+	display: flex;
+	flex-wrap: wrap;
+}
 
 .page-content
 {
@@ -698,7 +773,7 @@ li
 
 .case_hebergements
 {
-	width: 250px;
+	width: 100%;
 }
 
 .case_hebergements h3
@@ -709,7 +784,7 @@ li
 .case_hebergements img
 {
 	height: 150px;
-	width: 250px;
+	width: 100%;
 }
 
 #hébergements
@@ -738,4 +813,9 @@ li
 	padding-top: 25px;
 	padding-bottom: 25px;
 	font-size: 1.2em;
+}
+
+#footer
+{
+	width: 100%;
 }
