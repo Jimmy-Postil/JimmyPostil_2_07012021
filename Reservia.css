@@ -617,6 +617,10 @@ footer a
 @media all and (max-width: 480px)
 {
 
+body
+{
+	width: 100%;
+}
 
 #filtres
 {
@@ -783,6 +787,10 @@ footer
 @media all and (min-width: 481px) and (max-width: 768px)
 {
 
+body
+{
+	width: 100%;
+}
 
 #filtres
 {
