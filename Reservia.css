@@ -9,7 +9,7 @@
 
 body
 {
-	font-family: 'raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 h1
@@ -31,70 +31,54 @@ a
 
 /*------------------------------------header-------------------------------*/
 
-header
+header, #menu, #titre, ul
 {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin-top: 10px;	
 }
 
-.logo
+header
 {
-	padding-left: 20px;
-	font-family: sans-serif;
+	justify-content: space-between;
+}
+
+header img
+{
+	padding: 20px 0px 20px 40px;
 }
 
 nav ul
 {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	list-style-type: none;
+	margin: 0;
 }
 
-nav li
+ nav ul li
 {
-	list-style-type: none;
-	margin-left: 35px;
+	padding: 35px 0px 20px 60px;
 	font-family: sans-serif;
 }
 
-nav a:hover
+nav ul li a
 {
-	border-top: 2px solid #0065FC;
+	padding-top: 35px;
 }
 
-#menu
+ nav ul li a:hover, #inscription
 {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: baseline;
-	margin-right: 50px;
+	color: #0065fc;
 }
 
-.hebergements
+nav ul li a:hover
 {
-	color: #0065FC;
+	border-top: 2px solid;
 }
 
 #inscription
-{	
-	color: #0065FC;
+{
 	font-weight: bold;
-	padding-left: 35px;
+	padding:  35px 30px 0px 60px;
+	margin: 0;
 }
-
-#menu li
-{
-	margin-right: 30px;
-}
-
-#menu a
-{
-	text-decoration: none;
-}
-
 
 .pad
 {
@@ -108,7 +92,10 @@ nav a:hover
 
 
 /*-------------------------------------Barre de recherche------------------------------------*/
-
+.post
+{
+	width: 100%;
+}
 
 form
 {
@@ -125,9 +112,9 @@ form
 
 #recherche
 {
-		border: 1px solid #F2F2F2;
-		font-size: 1em;
-		padding-left: 15px;
+	border: 1px solid #F2F2F2;
+	font-size: 1em;
+	padding-left: 15px;
 }
 
 #recherche::placeholder
@@ -609,6 +596,7 @@ footer a
 	font-size: 1em;
 	padding-top: 5px;
 	padding-bottom: 8px;
+	font-family: sans-serif;
 }
 
 
@@ -617,9 +605,69 @@ footer a
 @media all and (max-width: 480px)
 {
 
-body
+header img 
 {
+	position: absolute;
+	padding: 15px 0 0 20px;
+}
+	
+#menu 
+{
+	flex-direction: column-reverse;
 	width: 100%;
+}
+	
+#inscription 
+{
+	align-self: flex-end;
+	padding: 30px 20px 0 0;
+}
+	
+nav ul 
+{
+	padding-left: 0;
+	width: 100%;
+}
+	
+nav ul li
+{
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 10px;
+	border-bottom: 2px #f2f2f2 solid;
+	width: 100%;
+}
+	
+nav ul li:hover 
+{
+	border-bottom: 2px solid;
+	padding-bottom: 10px;
+	color: #0065fc;
+	border-top: none;
+}
+	
+	
+nav ul li a:hover
+{
+	border-top: none;
+}
+
+@media all and (max-width: 380px)
+{
+
+#recherche
+{
+	width: 40%;
+	font-size: 0.8em;
+}
+
+.submit
+{
+	width: 40%;
+}
+
 }
 
 #filtres
@@ -649,13 +697,6 @@ body
 	padding-left: 30px;
 }
 
-.contenair_hebergements_pop
-{
-	display: flex;
-	flex-direction: column-reverse;
-	align-items: center;
-}
-
 #contenair_hebergements
 {
 	background-color: white;
@@ -667,11 +708,26 @@ body
 	width: 100%;
 	border-radius: 20px;
 	box-shadow: 0px 0px 5px grey;
+	margin: 0 0 20px 20px;
+}
+
+#hebergements
+{
+	padding: 0;
+	
+	align-items: center;
 }
 
 .case_hebergements img
 {
 	width: 100%;
+}
+
+.contenair_hebergements_pop
+{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
 }
 
 .contenair_pop
@@ -711,6 +767,8 @@ body
 	align-items: center;
 	justify-content: space-between;
 	width: 90%;
+	margin-left: 10px;
+	
 }
 
 .vertical
@@ -775,9 +833,6 @@ footer
 	flex-direction: column;
 	padding-left: 20px;
 	margin-left: -8px;
-	text-decoration: none;
-}
-
 }
 
 
@@ -790,6 +845,60 @@ footer
 body
 {
 	width: 100%;
+}
+
+
+header img 
+{
+    position: absolute;
+    padding: 15px 0px 0px 20px;
+}
+
+#menu 
+{
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+#inscription 
+{
+    align-self: flex-end;
+    padding: 30px 20px 0px 0px;
+}
+
+nav ul 
+{
+    padding-left: 0;
+    width: 100%;
+}
+
+nav ul li 
+{
+    display: inline-flex;
+    justify-content: space-around;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px #f2f2f2 solid;
+    width: 100%;
+}
+
+nav ul li:hover 
+{
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+    color: #0065fc;
+    border-top: none;
+}
+
+nav ul li a 
+{
+    padding: 0;
+    margin: 40px 0 0 20px;
+}
+
+nav ul li a:hover {
+    border-top: none;
 }
 
 #filtres
