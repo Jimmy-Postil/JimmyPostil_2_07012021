@@ -138,7 +138,7 @@ form
   padding-left: 15px;
 }
 
-.search-city::placeholder 
+#search-city::placeholder 
 {
   color: black;
   font-family: "raleway", sans-serif;
@@ -674,13 +674,13 @@ footer a
 @media all and (max-width: 380px) 
 {
 
-#recherche 
+#search-city
 {
       width: 40%;
       font-size: 0.8em;
 }
 
-.submit 
+.search-submit 
 {
       width: 40%;
 }
@@ -1093,15 +1093,16 @@ body
     border-top: none;
 }
 
-#filtres 
-{
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .header-menu 
 {
     width: auto;
+}
+
+#filtres 
+{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #contenair_hebergements 
