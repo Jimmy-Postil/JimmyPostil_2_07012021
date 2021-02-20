@@ -32,7 +32,7 @@ a
 
 /*------------------------------------header-------------------------------*/
 
-header, #menu, #titre, ul 
+header, .header-menu, .header-nav, .header-nav ul
 {
   display: flex;
 }
@@ -42,75 +42,78 @@ header
   justify-content: space-between;
 }
 
-header img 
+.header-logo-img
 {
   padding: 20px 0px 20px 40px;
 }
 
-nav ul 
+.header-nav ul 
 {
   list-style-type: none;
   margin: 0;
 }
 
-nav ul li 
+.header-nav-item
 {
   padding: 35px;
   font-family: sans-serif;
 }
 
-nav ul li a 
+.header-nav-item a 
 {
   padding-top: 35px;
   padding-left: auto;
   padding-right: auto;
 }
 
-nav ul li a:hover, #inscription 
+.header-nav-item a:hover, .header-inscription 
 {
   color: #0065fc;
 }
 
-nav ul li a:hover 
+.header-nav-item a:hover 
 {
   border-top: 2px solid #0065fc;
 }
 
-.item-active 
+.header-nav-item:nth-child(1) 
 {
   border-top: 2px solid #0065fc;
 }
 
-.item-active a 
+.header-nav-item:nth-child(1) a 
 {
   color: #0065fc;
 }
 
-#inscription 
+.header-inscription 
 {
   font-weight: bold;
   padding: 35px 30px 0px 60px;
   margin: 0;
 }
 
-.logo 
+.header-logo-img
 {
   padding-left: 20px;
 }
 
-.pad 
-{
-  padding-left: 20px;
-}
 
-.pad:nth-child(2) 
-{
-  font-family: sans-serif;
-}
 
 /*-------------------------------------Barre de recherche------------------------------------*/
 
-.post 
+.search-title
+{
+  padding-left: 20px;
+}
+
+.search-places
+{
+  padding-left: 20px;
+  font-family: sans-serif;
+}
+
+.search-post 
 {
   width: 100%;
 }
@@ -121,27 +124,27 @@ form
   padding-left: 20px;
 }
 
-.position 
+.search-position 
 {
   background-color: #f2f2f2;
   padding: 15px;
   border-radius: 15px 0px 0px 15px;
 }
 
-#recherche 
+.search-city
 {
   border: 1px solid #f2f2f2;
   font-size: 1em;
   padding-left: 15px;
 }
 
-#recherche::placeholder 
+.search-city::placeholder 
 {
   color: black;
   font-family: "raleway", sans-serif;
 }
 
-.submit 
+.search-submit 
 {
   border-radius: 0px 15px 15px 0px;
   background-color: #0065fc;
@@ -615,31 +618,31 @@ footer a
 @media all and (max-width: 480px) 
 {
 
-header img 
+.header-logo-img
 {
     position: absolute;
     padding: 15px 0 0 20px;
 }
 
-#menu 
+.header-menu 
 {
     flex-direction: column-reverse;
     width: 100%;
 }
 
-#inscription 
+.header-inscription 
 {
     align-self: flex-end;
     padding: 30px 20px 0 0;
 }
 
-nav ul 
+.header-nav ul 
 {
     padding-left: 0;
     width: 100%;
 }
 
-nav ul li 
+.header-nav-item 
 {
     display: flex;
     justify-content: space-around;
@@ -650,7 +653,7 @@ nav ul li
     width: 100%;
 }
 
-nav ul li:hover 
+.header-nav-item:hover 
 {
     border-bottom: 2px solid;
     padding-bottom: 10px;
@@ -658,12 +661,12 @@ nav ul li:hover
     border-top: none;
 }
 
-nav ul li a:hover 
+.header-nav-item a:hover 
 {
     border-top: none;
 }
 
-.item-active 
+.header-nav-item:nth-child(1) 
 {
     border-top: none;
 }
@@ -866,31 +869,31 @@ body
     width: 100%;
 }
 
-header img 
+.header-logo-img 
 {
     position: absolute;
     padding: 15px 0px 0px 20px;
 }
 
-#menu 
+.header-menu 
 {
     flex-direction: column-reverse;
     width: 100%;
 }
 
-#inscription 
+.header-inscription 
 {
     align-self: flex-end;
     padding: 30px 20px 0px 0px;
 }
 
-nav ul 
+.header-nav ul
 {
     padding-left: 0;
     width: 100%;
 }
 
-nav ul li 
+.header-nav-item
 {
     display: inline-flex;
     justify-content: space-around;
@@ -901,7 +904,7 @@ nav ul li
     width: 100%;
 }
 
-nav ul li:hover 
+.header-nav-item:hover 
 {
     border-bottom: 2px solid;
     padding-bottom: 10px;
@@ -909,18 +912,18 @@ nav ul li:hover
     border-top: none;
 }
 
-nav ul li a 
+.header-nav-item a 
 {
     padding: 0;
     margin: 40px 0 0 20px;
 }
 
-nav ul li a:hover 
+.header-nav-item a:hover 
 {
     border-top: none;
 }
 
-.item-active 
+.header-nav-item:nth-child(1) 
 {
     border-top: none;
 }
@@ -1079,7 +1082,13 @@ body
 }
 
 
-.item-active 
+.page-content 
+{
+    width: 100%;
+}
+
+
+.header-nav-item:nth-child(1) 
 {
     border-top: none;
 }
@@ -1090,12 +1099,7 @@ body
     flex-wrap: wrap;
 }
 
-.page-content 
-{
-    width: 100%;
-}
-
-#menu 
+.header-menu 
 {
     width: auto;
 }
