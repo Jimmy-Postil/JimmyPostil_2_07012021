@@ -14,7 +14,7 @@ body
   padding: 0;
 }
 
-h1 
+h1, h2
 {
   font-size: 1.4em;
 }
@@ -720,9 +720,9 @@ footer a
   align-items: center;
 }
 
-#hebergements-contenair h1 
+.hebergements-title
 {
-  padding-left: 30px;
+  margin-left: -30px
 }
 
 #hebergements-contenair
@@ -733,10 +733,16 @@ footer a
 
 .hebergements-case
 {
-  width: 85%;
+  width: 95%;
   border-radius: 20px;
   box-shadow: 0px 0px 5px grey;
-  margin: 0 0 20px 5px;
+  margin: 0 0 5px 0;
+  transform: scale(0.9);
+}
+
+.hebergements-case:hover
+{
+  transform: scale(1);
 }
 
 .hebergements-case img 
@@ -775,13 +781,19 @@ footer a
   
 .hebergements-pop-case
 {
-  width: 85%;
-  margin-left: 15px;
+  width: 95%;
+  transform: scale(0.9);
+  margin-bottom: 5px;
+}
+
+.hebergements-pop-case:hover
+{
+  transform: scale(1);
 }
 
 .hebergements-pop-case h3, p, i 
 {
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .hebergements-pop-case img 
@@ -793,7 +805,9 @@ footer a
 
 .activities-title
 {
-  padding-left: 20px;
+  padding-left: 32px;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .activities-contenair
@@ -802,8 +816,7 @@ footer a
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
-  margin-left: 10px;
+  width: 95%;
 }
 
 .activities-vertical 
@@ -811,13 +824,14 @@ footer a
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 40px;
+  margin-top: 5px;
 }
 
 .activities-port 
 {
   width: 100%;
   margin-left: 20px;
+  transform: scale(0.9);
 }
 
 .activities-port img 
@@ -826,9 +840,16 @@ footer a
   height: 150px;
 }
 
+.activities-port:hover
+{
+  transform: scale(1);
+}
+
 .activities-fort-pomegues 
 {
   margin-bottom: 40px;
+  transform: scale(0.9);
+  margin-bottom: 5px;
 }
 
 .activities-fort-pomegues img 
@@ -836,15 +857,30 @@ footer a
   height: 150px;
 }
 
+.activities-fort-pomegues:hover
+{
+  transform: scale(1);
+}
+.activities-frioul
+{
+  transform: scale(0.9);
+}
+
 .activities-frioul img 
 {
   height: 150px;
 }
 
+.activities-frioul:hover
+{
+  transform: scale(1);
+}
+
 .activities-calanques 
 {
   width: 100%;
-  margin-top: 40px;
+  margin-top: 5px;
+  transform: scale(0.9);
 }
 
 .activities-calanques img 
@@ -852,14 +888,40 @@ footer a
   height: 150px;
 }
 
+.activities-calanques:hover
+{
+  transform: scale(1);
+}
+
+.activities-garde
+{
+  transform: scale(0.9);
+  margin-bottom: 5px;
+}
+
 .activities-garde img 
 {
   height: 150px;
 }
 
+.activities-garde:hover
+{
+  transform: scale(1);
+}
+
+.activities-longchamp
+{
+  transform: scale(0.9);
+}
+
 .activities-longchamp img 
 {
   height: 150px;
+}
+
+.activities-longchamp:hover
+{
+  transform: scale(1);
 }
 
 /*------footer-------*/
@@ -977,19 +1039,27 @@ body
 #hebergements-contenair 
 {
   background-color: white;
+  margin-left: 0px;
+}
+
+.hebergements-restrained
+{
+  padding-left: 0px;
 }
 
 .hebergements-title
 {
-  margin-left: -35px;
+  margin-left: -30px;
 }
 
 .hebergements-case
 {
-  width: 100%;
+  width: 97%;
   border-radius: 20px;
   box-shadow: 0px 0px 5px grey;
-  margin-right: 45px;
+  transform: scale(0.9);
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .hebergements-case img 
@@ -997,22 +1067,23 @@ body
   width: 100%;
 }
 
-.hebergements-contenair h1 
+.hebergements-case:hover
 {
-  padding-left: 30px;
+  transform: scale(1);
 }
 
 .hebergements-more
 {
-  padding-left: 30px;
+  padding-left: 40px;
 }
+
+/*-----------hébergements populaires----------*/
 
 .hebergements-pop-case
 {
   width: 100%;
+  margin-right: 0;
 }
-
-/*-----------hébergements populaires----------*/
 
 .hebergements-contenair-pop
 {
@@ -1025,7 +1096,7 @@ body
 
 .activities-title
 {
-  margin-left: 25px;
+  margin-left: 15px;
 }
 
 .activities-contenair
@@ -1033,8 +1104,8 @@ body
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 85%;
-  margin-left: 25px; 
+  align-items: center;
+  width: 97%;
 }
 
 .activities-vertical 
@@ -1049,6 +1120,7 @@ body
 {
   width: 100%;
   margin-left: 20px;
+  transform: scale(0.9);
 }
 
 .activities-port img 
@@ -1057,9 +1129,15 @@ body
   height: 200px;
 }
 
+.activities-port:hover
+{
+  transform: scale(1);
+}
+
 .activities-fort-pomegues 
 {
   margin-bottom: 40px;
+  transform: scale(0.9);
 }
 
 .activities-fort-pomegues img 
@@ -1067,15 +1145,31 @@ body
   height: 200px;
 }
 
+.activities-fort-pomegues:hover
+{
+  transform: scale(1);
+}
+
+.activities-frioul
+{
+  transform: scale(0.9);
+}
+
 .activities-frioul img 
 {
   height: 200px;
+}
+
+.activities-frioul:hover
+{
+  transform: scale(1);
 }
 
 .activities-calanques 
 {
   width: 100%;
   margin-top: 40px;
+  transform: scale(0.9);
 }
 
 .activities-calanques img 
@@ -1083,14 +1177,39 @@ body
   height: 200px;
 }
 
+.activities-calanques:hover
+{
+  transform: scale(1);
+}
+
+.activities-garde
+{
+  transform: scale(0.9);
+}
+
 .activities-garde img 
 {
   height: 200px;
 } 
 
+.activities-garde:hover
+{
+  transform: scale(1);
+}
+
+.activities-longchamp
+{
+  transform: scale(0.9);
+}
+
 .activities-longchamp img 
 {
   height: 200px;
+}
+
+.activities-longchamp:hover
+{
+  transform: scale(1);
 }
 
 /*-------------footer------------*/
