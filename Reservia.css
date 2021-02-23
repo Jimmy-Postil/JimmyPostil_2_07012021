@@ -756,7 +756,7 @@ footer a
 {
   width: 95%;
   border-radius: 20px;
-  box-shadow: 0px 0px 5px grey;
+  box-shadow: 1px 1px 5px black;
   margin: 0 0 5px 0;
   transform: scale(0.9);
 }
@@ -1077,7 +1077,7 @@ body
 {
   width: 97%;
   border-radius: 20px;
-  box-shadow: 0px 0px 5px grey;
+  box-shadow: 1px 1px 5px black;
   transform: scale(0.9);
   margin-right: 0;
   margin-left: 0;
