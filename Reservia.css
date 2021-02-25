@@ -1360,8 +1360,24 @@ body
 
 .activities-contenair
 {
-  width: 95%;
-  margin-left: 22px;
+  width: 96%;
+  margin-left: 20px;
+}
+
+}
+
+/*------------------------Responsive Desktop-----------------------*/
+
+@media all and (min-width:1200px) and (max-width:1500px)
+{
+
+/*--------------activités--------------*/
+
+.activities-contenair
+{
+  width: 97%;
+  margin-left: 20px;
+
 }
 
 }
