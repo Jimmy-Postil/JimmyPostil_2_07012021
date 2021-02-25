@@ -1015,7 +1015,7 @@ body
 
 .header-nav-item:hover 
 {
-  border-bottom: 2px solid;
+  border-bottom: 3px solid;
   padding-bottom: 10px;
   color: #0065fc;
   border-top: none;
@@ -1030,6 +1030,11 @@ body
 .header-nav-item a:hover 
 {
   border-top: none;
+}
+
+.header-nav-item:nth-child(1)
+{
+  border-bottom: 3px solid #0065fc;
 }
 
 .header-nav-item:nth-child(1) 
